@@ -28,7 +28,7 @@ const HomePage = () => {
                     <h2 class="mb-5">Journal web</h2>
                     {data.map((element, index) => {
                         return (
-                            <div key={index} class="card rounded border-0">
+                            <div key={index} class="card rounded mb-3">
                                 <h5 class="card-title ms-3  ">{element.Date}</h5>
                                 <div class="card-body">
                                     {element.text}
